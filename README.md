@@ -9,13 +9,18 @@ Neste desafio, você terá a oportunidade de demonstrar suas habilidades como QA
 ## Objetivo do desafio
 
 ### 1. Automação de testes para frontend
-Utilize a aplicação [Conduit - RealWorld App](https://demo.realworld.io/#/), que simula uma rede social com autenticação, criação de posts e interações.
+Utilize a aplicação [Demo Blaze](https://www.demoblaze.com/), que simula uma loja virtual com funcionalidades como autenticação e manipulação de produtos.
 
 Implemente testes automatizados utilizando **Cypress** nos 2 fluxos principais:
 
 1. **Cadastro de usuário**
+   - Realizar o cadastro de um novo usuário.
+   - Validar a exibição da mensagem de sucesso.
 
-2. **Criação de artigo** (após login)
+2. **Adição de produto ao carrinho**
+   - Realizar login com o usuário previamente cadastrado.
+   - Adicionar um produto ao carrinho.
+   - Validar a exibição da mensagem de sucesso e a presença do produto no carrinho.
 
 ---
 
@@ -74,7 +79,7 @@ Como tarefa extra, você pode implementar:
 ---
 
 ## Ferramentas e aplicações utilizadas
-- **Frontend**: [Conduit - RealWorld App](https://demo.realworld.io/#/).
+- **Frontend**: [Demo Blaze](https://www.demoblaze.com/).
 - **API**: [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
 ---
